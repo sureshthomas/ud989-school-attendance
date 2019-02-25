@@ -1,11 +1,11 @@
 /* STUDENTS IGNORE THIS FUNCTION
  * All this does is create an initial
- * attendance record if one is not found
+ * isMissed record if one is not found
  * within localStorage.
  */
 (function() {
     if (!localStorage.attendance) {
-        console.log('Creating attendance records...');
+        console.log('Creating isMissed records...');
         function getRandom() {
             return (Math.random() >= 0.5);
         }
